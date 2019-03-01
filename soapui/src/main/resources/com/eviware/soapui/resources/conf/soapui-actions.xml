@@ -366,8 +366,8 @@
         <tns:actionMapping actionId="NewRestProjectAction" keyStroke="menu alt N"/>
         <tns:actionMapping actionId="SeperatorAction"/>
         <tns:actionMapping actionId="ImportWsdlProjectAction" keyStroke="menu I"/>
-        <tns:actionMapping actionId="ImportPackedProjectAction"/>
-        <tns:actionMapping actionId="ImportRemoteWsdlProjectAction"/>
+		<tns:actionMapping actionId="ImportPackedProjectAction"/>
+		<tns:actionMapping actionId="ImportRemoteWsdlProjectAction"/>
         <tns:actionMapping actionId="SeperatorAction"/>
         <tns:actionMapping actionId="SaveAllProjectsAction" keyStroke="ctrl alt S"/>
         <tns:actionMapping actionId="OpenClosedProjectsAction"/>
@@ -414,19 +414,19 @@
         <tns:actionMapping actionId="AddWsdlAction" keyStroke="menu U"/>
         <tns:actionMapping actionId="AddWadlAction" keyStroke="menu F"/>
         <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="NewRestServiceAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="TestRunnerAction"/>
-        <tns:actionMapping actionId="LoadTestRunnerAction"/>
-        <tns:actionMapping actionId="SoapMonitorAction"/>
-        <tns:actionMapping actionId="SecurityTestRunnerAction"/>
+<!--         <tns:actionMapping actionId="NewRestServiceAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="TestRunnerAction"/> -->
+<!--         <tns:actionMapping actionId="LoadTestRunnerAction"/> -->
+<!--         <tns:actionMapping actionId="SoapMonitorAction"/> -->
+<!--         <tns:actionMapping actionId="SecurityTestRunnerAction"/> -->
         <!-- <tns:actionMapping actionId="SeperatorAction"/> <tns:actionMapping
             actionId="WSToolsJava2WsdlAction"/> -->
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="AddNewTestSuiteAction" keyStroke="menu T"/>
-        <tns:actionMapping actionId="AddNewWSDLMockServiceAction" keyStroke="menu O"/>
-        <tns:actionMapping actionId="AddNewRestMockServiceAction" keyStroke="menu R"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="AddNewTestSuiteAction" keyStroke="menu T"/> -->
+<!--         <tns:actionMapping actionId="AddNewWSDLMockServiceAction" keyStroke="menu O"/> -->
+<!--         <tns:actionMapping actionId="AddNewRestMockServiceAction" keyStroke="menu R"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
         <tns:actionMapping actionId="RenameProjectAction" keyStroke="F2"/>
         <tns:actionMapping actionId="RemoveProjectAction" keyStroke="DELETE"/>
         <tns:actionMapping actionId="ReloadProjectAction" keyStroke="F5"/>
@@ -436,13 +436,13 @@
         <tns:actionMapping actionId="SaveProjectAction" keyStroke="menu S"/>
         <tns:actionMapping actionId="SaveProjectAsAction" keyStroke="menu shift S"/>
         <tns:actionMapping actionId="ExportProjectAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="ImportTestSuite"/>
-        <tns:actionMapping actionId="ImportMockService"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="MockAsWar"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="StarHermesJMS"/>
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="ImportTestSuite"/> -->
+<!--         <tns:actionMapping actionId="ImportMockService"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="MockAsWar"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="StarHermesJMS"/> -->
 
 
     </tns:actionGroup>
@@ -478,7 +478,7 @@
         <tns:actionMapping actionId="AddJMSEndpointAction"/>
         <tns:actionMapping actionId="SeperatorAction"/>
         <tns:actionMapping groupId="WsdlInterfaceGenerateActions" name="Generate Code"/>
-        <!-- <tns:actionMapping actionId="WSToolsRegenerateJava2WsdlAction"/> -->
+        <tns:actionMapping actionId="WSToolsRegenerateJava2WsdlAction"/>
         <tns:actionMapping actionId="SeperatorAction"/>
         <tns:actionMapping actionId="WSIAnalyzeAction" keyStroke="ctrl alt W"/>
         <tns:actionMapping actionId="TcpMonAction"/>
@@ -501,17 +501,17 @@
         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show Service Viewer"
                            description="Shows the Service Viewer for this REST Service" keyStroke="ENTER"/>
         <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="GenerateWadlTestSuiteAction"/>
-        <tns:actionMapping actionId="GenerateRestMockServiceAction"/>
+<!--         <tns:actionMapping actionId="GenerateWadlTestSuiteAction"/> -->
+<!--         <tns:actionMapping actionId="GenerateRestMockServiceAction"/> -->
         <tns:actionMapping actionId="CreateWadlDocumentationAction"/>
         <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="Wadl2JavaAction"/>
-        <tns:actionMapping actionId="ExportWadlAction" keyStroke="menu P" iconPath="/export.png"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
+<!--         <tns:actionMapping actionId="Wadl2JavaAction"/> -->
+<!--         <tns:actionMapping actionId="ExportWadlAction" keyStroke="menu P" iconPath="/export.png"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
         <tns:actionMapping actionId="NewRestResourceAction"/>
         <tns:actionMapping actionId="DeleteRestServiceAction" keyStroke="DELETE"/>
         <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="AddJMSEndpointAction"/>
+<!--         <tns:actionMapping actionId="AddJMSEndpointAction"/> -->
 
 
     </tns:actionGroup>
@@ -560,10 +560,10 @@
     <tns:actionGroup name="Request Actions" id="WsdlRequestActions" default="ShowDesktopPanelAction">
         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show Request Editor"
                            description="Shows the Request Editor for this Request" keyStroke="ENTER"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="AddRequestToTestCaseAction" keyStroke="menu alt A" iconPath="/add_to_test_case.png"/>
-        <tns:actionMapping actionId="AddRequestToMockServiceAction" iconPath="/addToMockService.gif"/>
-        <tns:actionMapping actionId="AddRequestAsMockResponseStepAction"/>
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="AddRequestToTestCaseAction" keyStroke="menu alt A" iconPath="/add_to_test_case.png"/> -->
+<!--         <tns:actionMapping actionId="AddRequestToMockServiceAction" iconPath="/addToMockService.gif"/> -->
+<!--         <tns:actionMapping actionId="AddRequestAsMockResponseStepAction"/> -->
         <tns:actionMapping actionId="SeperatorAction"/>
         <tns:actionMapping actionId="CloneRequestAction" keyStroke="F9" iconPath="/clone.png"/>
         <tns:actionMapping actionId="RenameRequestAction" keyStroke="F2"/>
@@ -594,21 +594,21 @@
                      class="com.eviware.soapui.impl.wsdl.actions.testsuite.WsdlTestSuiteSoapUIActionGroup">
         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show TestSuite Editor"
                            description="Shows the TestSuite Editor for this TestSuite" keyStroke="ENTER"/>
-        <tns:actionMapping actionId="ToggleDisableTestSuiteAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="AddNewTestCaseAction" keyStroke="menu N" iconPath="/testcase.png"/>
-        <tns:actionMapping actionId="CloneTestSuiteAction" keyStroke="F9"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="TestSuiteTestRunnerAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="RenameTestSuiteAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteTestSuiteAction" keyStroke="DELETE"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="MoveTestSuiteUpAction" keyStroke="menu UP"/>
-        <tns:actionMapping actionId="MoveTestSuiteDownAction" keyStroke="menu DOWN"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="ExportTestSuite"/>
-        <tns:actionMapping actionId="ImportTestCase"/>
+<!--         <tns:actionMapping actionId="ToggleDisableTestSuiteAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="AddNewTestCaseAction" keyStroke="menu N" iconPath="/testcase.png"/> -->
+<!--         <tns:actionMapping actionId="CloneTestSuiteAction" keyStroke="F9"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="TestSuiteTestRunnerAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="RenameTestSuiteAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteTestSuiteAction" keyStroke="DELETE"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="MoveTestSuiteUpAction" keyStroke="menu UP"/> -->
+<!--         <tns:actionMapping actionId="MoveTestSuiteDownAction" keyStroke="menu DOWN"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="ExportTestSuite"/> -->
+<!--         <tns:actionMapping actionId="ImportTestCase"/> -->
 
 
     </tns:actionGroup>
@@ -619,48 +619,48 @@
 
     <tns:actionGroup name="TestCase Actions" id="WsdlTestCaseActions" default="ShowDesktopPanelAction"
                      class="com.eviware.soapui.impl.wsdl.actions.testcase.WsdlTestCaseSoapUIActionGroup">
-        <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show TestCase Editor"
-                           description="Shows the TestCase Editor for this TestCase" keyStroke="ENTER"/>
-        <tns:actionMapping actionId="ToggleDisableTestCaseAction"/>
-        <tns:actionMapping actionId="TestCaseOptionsAction" keyStroke="menu shift O" iconPath="/preferences.png"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping groupId="WsdlTestCaseAddStepActions" name="Add Step"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="AddNewLoadTestAction" keyStroke="menu N"/>
-        <tns:actionMapping actionId="AddNewSecurityTestAction" keyStroke="menu S"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="CloneTestCaseAction" keyStroke="F9"/>
-        <tns:actionMapping actionId="ClearTestCaseAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="TestCaseTestRunnerAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="RenameTestCaseAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteTestCaseAction" keyStroke="DELETE"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="MoveTestCaseUpAction" keyStroke="menu UP"/>
-        <tns:actionMapping actionId="MoveTestCaseDownAction" keyStroke="menu DOWN"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="ExportTestCase"/>
+<!--         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show TestCase Editor" -->
+<!--                            description="Shows the TestCase Editor for this TestCase" keyStroke="ENTER"/> -->
+<!--         <tns:actionMapping actionId="ToggleDisableTestCaseAction"/> -->
+<!--         <tns:actionMapping actionId="TestCaseOptionsAction" keyStroke="menu shift O" iconPath="/preferences.png"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping groupId="WsdlTestCaseAddStepActions" name="Add Step"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="AddNewLoadTestAction" keyStroke="menu N"/> -->
+<!--         <tns:actionMapping actionId="AddNewSecurityTestAction" keyStroke="menu S"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="CloneTestCaseAction" keyStroke="F9"/> -->
+<!--         <tns:actionMapping actionId="ClearTestCaseAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="TestCaseTestRunnerAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="RenameTestCaseAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteTestCaseAction" keyStroke="DELETE"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="MoveTestCaseUpAction" keyStroke="menu UP"/> -->
+<!--         <tns:actionMapping actionId="MoveTestCaseDownAction" keyStroke="menu DOWN"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="ExportTestCase"/> -->
 
 
     </tns:actionGroup>
 
     <tns:actionGroup name="TestSteps Node Actions" id="TestStepsTreeNodeActions" default="ShowDesktopPanelAction">
-        <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show TestCase Editor"
-                           description="Shows the TestCase Editor for this TestCase" keyStroke="ENTER"/>
-        <tns:actionMapping groupId="WsdlTestCaseAddStepActions" name="Add Step"/>
+<!--         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show TestCase Editor" -->
+<!--                            description="Shows the TestCase Editor for this TestCase" keyStroke="ENTER"/> -->
+<!--         <tns:actionMapping groupId="WsdlTestCaseAddStepActions" name="Add Step"/> -->
 
 
     </tns:actionGroup>
 
     <tns:actionGroup name="LoadSteps Node Actions" id="LoadTestsTreeNodeActions">
-        <tns:actionMapping actionId="AddNewLoadTestAction" keyStroke="menu N"/>
+<!--         <tns:actionMapping actionId="AddNewLoadTestAction" keyStroke="menu N"/> -->
 
 
     </tns:actionGroup>
 
     <tns:actionGroup name="SecuritySteps Node Actions" id="SecurityTestsTreeNodeActions">
-        <tns:actionMapping actionId="AddNewSecurityTestAction" keyStroke="menu S"/>
+<!--         <tns:actionMapping actionId="AddNewSecurityTestAction" keyStroke="menu S"/> -->
 
 
     </tns:actionGroup>
@@ -670,22 +670,22 @@
                      class="com.eviware.soapui.impl.wsdl.actions.teststep.WsdlTestStepInsertStepSoapUIActionGroup"/>
 
     <tns:actionGroup name="Default TestStep Actions" id="WsdlTestStepActions">
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping groupId="WsdlTestStepInsertStepActions" name="Insert Step"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="RenameTestStepAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteTestStepAction" keyStroke="DELETE"/>
-        <tns:actionMapping actionId="CloneTestStepAction" keyStroke="F9"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="MoveTestStepUpAction" keyStroke="menu UP"/>
-        <tns:actionMapping actionId="MoveTestStepDownAction" keyStroke="menu DOWN"/>
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping groupId="WsdlTestStepInsertStepActions" name="Insert Step"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="RenameTestStepAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteTestStepAction" keyStroke="DELETE"/> -->
+<!--         <tns:actionMapping actionId="CloneTestStepAction" keyStroke="F9"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="MoveTestStepUpAction" keyStroke="menu UP"/> -->
+<!--         <tns:actionMapping actionId="MoveTestStepDownAction" keyStroke="menu DOWN"/> -->
     </tns:actionGroup>
 
     <tns:actionGroup name="WSDL RequestStep Actions" id="WsdlTestRequestStepActions"
                      class="com.eviware.soapui.impl.wsdl.actions.teststep.WsdlTestStepSoapUIActionGroup">
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="ChangeOperationAction"/>
-        <tns:actionMapping actionId="SelectOperationAction"/>
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="ChangeOperationAction"/> -->
+<!--         <tns:actionMapping actionId="SelectOperationAction"/> -->
 
 
     </tns:actionGroup>
@@ -716,8 +716,8 @@
 
     <tns:actionGroup name="DelayStep Actions" id="WsdlDelayTestStepActions" default="SetWaitTimeAction"
                      class="com.eviware.soapui.impl.wsdl.actions.teststep.WsdlTestStepSoapUIActionGroup">
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="SetWaitTimeAction"/>
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="SetWaitTimeAction"/> -->
 
 
     </tns:actionGroup>
@@ -770,11 +770,11 @@
     <!-- WsdlMessageAssertions -->
     <tns:actionGroup name="Assertion Action" id="WsdlMessageAssertionActions"
                      class="com.eviware.soapui.impl.wsdl.teststeps.actions.WsdlMessageAssertionSoapUIActionGroup">
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="ToggleDisableAssertionAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="RenameAssertionAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteAssertionAction" keyStroke="DELETE"/>
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="ToggleDisableAssertionAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="RenameAssertionAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteAssertionAction" keyStroke="DELETE"/> -->
 
     </tns:actionGroup>
 
@@ -782,14 +782,14 @@
     <tns:actionGroup name="LoadTest Actions" id="WsdlLoadTestActions" default="ShowDesktopPanelAction">
         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show LoadTest Editor"
                            description="Shows the LoadTest Editor for this LoadTest" keyStroke="ENTER"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="LoadTestOptionsAction" keyStroke="menu shift O" iconPath="/preferences.png"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="LoadTestLoadTestRunnerAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="CloneLoadTestAction" keyStroke="F9"/>
-        <tns:actionMapping actionId="RenameLoadTestAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteLoadTestAction" keyStroke="DELETE"/>
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="LoadTestOptionsAction" keyStroke="menu shift O" iconPath="/preferences.png"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="LoadTestLoadTestRunnerAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="CloneLoadTestAction" keyStroke="F9"/> -->
+<!--         <tns:actionMapping actionId="RenameLoadTestAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteLoadTestAction" keyStroke="DELETE"/> -->
 
 
     </tns:actionGroup>
@@ -798,111 +798,111 @@
     <tns:actionGroup name="SecurityTest Actions" id="SecurityTestActions" default="ShowDesktopPanelAction">
         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show SecurityTest Editor"
                            description="Shows the SecurityTest Editor for this SecurityTest" keyStroke="ENTER"/>
-        <tns:actionMapping actionId="SecurityTestOptionsAction" keyStroke="menu shift O" iconPath="/preferences.png"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="SecurityTestSecurityTestRunnerAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="CloneSecurityTestAction" keyStroke="F9"/>
-        <tns:actionMapping actionId="RenameSecurityTestAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteSecurityTestAction" keyStroke="DELETE"/>
+<!--         <tns:actionMapping actionId="SecurityTestOptionsAction" keyStroke="menu shift O" iconPath="/preferences.png"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="SecurityTestSecurityTestRunnerAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="CloneSecurityTestAction" keyStroke="F9"/> -->
+<!--         <tns:actionMapping actionId="RenameSecurityTestAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteSecurityTestAction" keyStroke="DELETE"/> -->
 
 
     </tns:actionGroup>
 
     <!-- WsdlMockService ActionGroup -->
     <tns:actionGroup name="MockService Actions" id="WsdlMockServiceActions" default="ShowDesktopPanelAction">
-        <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show MockService Editor"
-                           description="Shows the MockService Editor for this MockService" keyStroke="ENTER"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="StartMinimizedMockServiceAction"/>
-        <tns:actionMapping actionId="StopMockServiceAction"/>
-        <tns:actionMapping actionId="RestartMockServiceAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="AddNewMockOperationAction" keyStroke="menu N"/>
-        <tns:actionMapping actionId="CloneMockServiceAction" keyStroke="F9"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="AddEndpointToInterfaceAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="RenameMockServiceAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteMockServiceAction" keyStroke="DELETE"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="ExportMockService"/>
-        <tns:actionMapping actionId="ImportMockOperation"/>
+<!--         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show MockService Editor" -->
+<!--                            description="Shows the MockService Editor for this MockService" keyStroke="ENTER"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="StartMinimizedMockServiceAction"/> -->
+<!--         <tns:actionMapping actionId="StopMockServiceAction"/> -->
+<!--         <tns:actionMapping actionId="RestartMockServiceAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="AddNewMockOperationAction" keyStroke="menu N"/> -->
+<!--         <tns:actionMapping actionId="CloneMockServiceAction" keyStroke="F9"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="AddEndpointToInterfaceAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="RenameMockServiceAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteMockServiceAction" keyStroke="DELETE"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="ExportMockService"/> -->
+<!--         <tns:actionMapping actionId="ImportMockOperation"/> -->
 
 
     </tns:actionGroup>
 
     <!-- WsdlMockOperation ActionGroup -->
     <tns:actionGroup name="MockOperation Actions" id="WsdlMockOperationActions" default="ShowDesktopPanelAction">
-        <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show MockOperation Editor"
-                           description="Shows the MockOperation Editor for this MockOperation" keyStroke="ENTER"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="OpenRequestForMockOperationAction" iconPath="/open_request.gif"/>
-        <tns:actionMapping actionId="NewMockResponseAction" keyStroke="menu N" iconPath="/addToMockService.gif"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="ChangeMockOperationAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="RenameMockOperationAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteMockOperationAction" keyStroke="DELETE"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="ExportMockOperation"/>
+<!--         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show MockOperation Editor" -->
+<!--                            description="Shows the MockOperation Editor for this MockOperation" keyStroke="ENTER"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="OpenRequestForMockOperationAction" iconPath="/open_request.gif"/> -->
+<!--         <tns:actionMapping actionId="NewMockResponseAction" keyStroke="menu N" iconPath="/addToMockService.gif"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="ChangeMockOperationAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="RenameMockOperationAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteMockOperationAction" keyStroke="DELETE"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="ExportMockOperation"/> -->
 
 
     </tns:actionGroup>
 
     <!-- WsdlMockResponse ActionGroup -->
     <tns:actionGroup name="MockResponse Actions" id="WsdlMockResponseActions" default="ShowDesktopPanelAction">
-        <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show MockResponse Editor"
-                           description="Shows the MockResponse Editor for this MockResponse" keyStroke="ENTER"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="OpenRequestForMockResponseAction" iconPath="/open_request.gif"/>
-        <tns:actionMapping actionId="AddMockResponseToTestCaseAction"/>
-        <tns:actionMapping actionId="CreateTestRequestForMockResponseAction" iconPath="/open_request.gif"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="CloneMockResponseAction" keyStroke="F9"/>
-        <tns:actionMapping actionId="RenameMockResponseAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteMockResponseAction" keyStroke="DELETE"/>
+<!--         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show MockResponse Editor" -->
+<!--                            description="Shows the MockResponse Editor for this MockResponse" keyStroke="ENTER"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="OpenRequestForMockResponseAction" iconPath="/open_request.gif"/> -->
+<!--         <tns:actionMapping actionId="AddMockResponseToTestCaseAction"/> -->
+<!--         <tns:actionMapping actionId="CreateTestRequestForMockResponseAction" iconPath="/open_request.gif"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="CloneMockResponseAction" keyStroke="F9"/> -->
+<!--         <tns:actionMapping actionId="RenameMockResponseAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteMockResponseAction" keyStroke="DELETE"/> -->
 
 
     </tns:actionGroup>
 
     <!-- RestMockService ActionGroup -->
     <tns:actionGroup name="RestMockService Actions" id="RestMockServiceActions" default="ShowDesktopPanelAction">
-        <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show REST MockService Editor"
-                           description="Shows the REST MockService Editor for this MockService" keyStroke="ENTER"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="StartMinimizedMockServiceAction"/>
-        <tns:actionMapping actionId="StopMockServiceAction"/>
-        <tns:actionMapping actionId="RestartMockServiceAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="AddEmptyRestMockResourceAction"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="RenameMockResponseAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteMockServiceAction" keyStroke="DELETE"/>
+<!--         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show REST MockService Editor" -->
+<!--                            description="Shows the REST MockService Editor for this MockService" keyStroke="ENTER"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="StartMinimizedMockServiceAction"/> -->
+<!--         <tns:actionMapping actionId="StopMockServiceAction"/> -->
+<!--         <tns:actionMapping actionId="RestartMockServiceAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="AddEmptyRestMockResourceAction"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="RenameMockResponseAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteMockServiceAction" keyStroke="DELETE"/> -->
 
 
     </tns:actionGroup>
 
     <!-- RestMockAction ActionGroup -->
     <tns:actionGroup name="RestMockAction Actions" id="RestMockActionActions" default="ShowDesktopPanelAction">
-        <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show MockAction Editor"
-                           description="Shows the MockAction Editor for this MockAction" keyStroke="ENTER"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="NewMockResponseAction" keyStroke="menu N" iconPath="/addToRestMockAction.gif"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="RenameMockOperationAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteMockOperationAction" keyStroke="DELETE"/>
+<!--         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show MockAction Editor" -->
+<!--                            description="Shows the MockAction Editor for this MockAction" keyStroke="ENTER"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="NewMockResponseAction" keyStroke="menu N" iconPath="/addToRestMockAction.gif"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="RenameMockOperationAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteMockOperationAction" keyStroke="DELETE"/> -->
 
 
     </tns:actionGroup>
 
     <!-- RestMockResponse ActionGroup -->
     <tns:actionGroup name="RestMockResponse Actions" id="RestMockResponseActions" default="ShowDesktopPanelAction">
-        <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show MockResponse Editor"
-                           description="Shows the MockResponse Editor for this MockResponse" keyStroke="ENTER"/>
-        <tns:actionMapping actionId="SeperatorAction"/>
-        <tns:actionMapping actionId="RenameMockResponseAction" keyStroke="F2"/>
-        <tns:actionMapping actionId="DeleteMockResponseAction" keyStroke="DELETE"/>
+<!--         <tns:actionMapping actionId="ShowDesktopPanelAction" name="Show MockResponse Editor" -->
+<!--                            description="Shows the MockResponse Editor for this MockResponse" keyStroke="ENTER"/> -->
+<!--         <tns:actionMapping actionId="SeperatorAction"/> -->
+<!--         <tns:actionMapping actionId="RenameMockResponseAction" keyStroke="F2"/> -->
+<!--         <tns:actionMapping actionId="DeleteMockResponseAction" keyStroke="DELETE"/> -->
 
 
     </tns:actionGroup>
@@ -910,10 +910,10 @@
     <!-- MultiActions Group -->
 
     <tns:actionGroup name="SoapUIMultiActions" id="SoapUIMultiActions">
-        <tns:actionMapping actionId="MultiTestStepDeleteAction" keyStroke="DELETE"/>
-        <tns:actionMapping actionId="MultiTestStepEnableAction"/>
-        <tns:actionMapping actionId="MultiTestStepDisableAction"/>
-        <tns:actionMapping actionId="MultiAssertionDeleteAction" keyStroke="DELETE"/>
+<!--         <tns:actionMapping actionId="MultiTestStepDeleteAction" keyStroke="DELETE"/> -->
+<!--         <tns:actionMapping actionId="MultiTestStepEnableAction"/> -->
+<!--         <tns:actionMapping actionId="MultiTestStepDisableAction"/> -->
+<!--         <tns:actionMapping actionId="MultiAssertionDeleteAction" keyStroke="DELETE"/> -->
         <!-- <tns:actionMapping actionId="MultiAssertionEnableAction" /> <tns:actionMapping
             actionId="MultiAssertionDisableAction" /> -->
     </tns:actionGroup>

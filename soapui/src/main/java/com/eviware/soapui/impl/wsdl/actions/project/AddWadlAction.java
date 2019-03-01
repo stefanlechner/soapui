@@ -25,6 +25,7 @@ import com.eviware.soapui.impl.rest.support.WadlImporter;
 import com.eviware.soapui.impl.wsdl.WsdlProject;
 import com.eviware.soapui.impl.wsdl.support.HelpUrls;
 import com.eviware.soapui.impl.wsdl.support.PathUtils;
+import com.eviware.soapui.model.iface.Interface;
 import com.eviware.soapui.support.MessageSupport;
 import com.eviware.soapui.support.StringUtils;
 import com.eviware.soapui.support.UISupport;
@@ -97,10 +98,19 @@ public class AddWadlAction extends AbstractSoapUIAction<WsdlProject> {
             dialog.getFormField(Form.GENERATETESTSUITE).setEnabled(false);
         }
     }
-
+//LS
     private RestService importWadl(WsdlProject project, String url) {
-        RestService restService = (RestService) project
-                .addNewInterface(project.getName(), RestServiceFactory.REST_TYPE);
+        RestService restService = null;
+        for (Interface node : project.getInterfaceList()){
+          if (((RestService)node).getDefinition().equals(url)) {
+            restService = (RestService)node;
+            break;
+          }
+        }
+        if (restService == null) {
+          restService = (RestService) project
+                  .addNewInterface(project.getName(), RestServiceFactory.REST_TYPE);
+        }
         UISupport.select(restService);
         try {
             new WadlImporter(restService).initFromWadl(url);

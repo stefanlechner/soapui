@@ -740,9 +740,9 @@ public class WsdlProject extends AbstractTestPropertyHolderWsdlModelItem<Project
             }
         }
 
-        if (shouldCreateBackup(projectFile)) {
+//        if (shouldCreateBackup(projectFile)) {
             createBackup(projectFile);
-        }
+//        }
 
         SaveStatus saveStatus = saveIn(projectFile);
 
